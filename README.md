@@ -1,33 +1,37 @@
-# Super Sword
+# 超强之剑 (Super Sword)
 
-A **Fabric** mod for **Minecraft 1.20.1** that adds a custom sword with extremely high attack damage.
+一个基于 **Fabric** 的 **Minecraft 1.20.1** 模组,添加了一把攻击力极高的自定义剑。
 
-## Features
+## 功能
 
-- A custom sword **Super Sword** (`super_sword:custom_sword`) with very high attack damage.
-- Automatically added to the **Combat** creative tab.
-- Craftable from 2 netherite ingots and 1 stick.
+- 自定义剑 **超强之剑**(`super_sword:custom_sword`),攻击力远超原版。
+- 会自动加入到**战斗**创造模式物品栏。
+- 可合成:2 个下界合金锭 + 1 根木棍。
 
-## Requirements
+## 环境要求
 
 - Minecraft **1.20.1**
 - Fabric Loader **>= 0.14.23**
-- Fabric API (1.20.1 version)
+- Fabric API(1.20.1 版本)
 - Java **17+**
 
-## Build
+## 构建
 
 ```powershell
 .\gradlew build
 ```
 
-The mod jar will be in `build/libs/super_sword-1.0.0.jar`.
+生成的 mod jar 位于 `build/libs/super_sword-1.0.0.jar`。
 
-## In game
+## 游戏内使用
 
-- Give the item: `/give @s super_sword:custom_sword`
-- Craft: 2 netherite ingots + 1 stick
+- 获取物品:`/give @s super_sword:custom_sword`
+- 合成配方:2 个下界合金锭 + 1 根木棍
 
-## License
+## 安装
+
+从 [Releases](https://github.com/DiamondAmbilight/super_sword/releases) 下载对应的 jar,放入游戏版本的 `mods` 文件夹即可。
+
+## 许可证
 
 MIT
