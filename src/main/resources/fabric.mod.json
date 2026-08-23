@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "super_sword",
+	"version": "${version}",
+	"name": "Super Sword",
+	"description": "A custom sword with extremely high attack damage.",
+	"authors": [
+		"DiamondAmbilight"
+	],
+	"contact": {
+		"homepage": "https://github.com/DiamondAmbilight/super_sword",
+		"sources": "https://github.com/DiamondAmbilight/super_sword"
+	},
+	"license": "MIT",
+	"icon": "assets/super_sword/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.diamondambilight.supersword.ExampleMod"
+		],
+		"client": [
+			"com.diamondambilight.supersword.client.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"super_sword.mixins.json",
+		{
+			"config": "super_sword.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
