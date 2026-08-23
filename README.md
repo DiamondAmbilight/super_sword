@@ -1,5 +1,7 @@
 # 超强之剑 (Super Sword)
 
+![封面](cover.png)
+
 一个基于 **Fabric** 的 **Minecraft 1.20.1** 模组,添加了一把攻击力极高的自定义剑。
 
 ## 功能
