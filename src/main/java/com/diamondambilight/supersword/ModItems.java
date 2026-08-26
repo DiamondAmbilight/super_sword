@@ -18,7 +18,7 @@ public class ModItems {
 	public static final Item CUSTOM_SWORD = Registry.register(
 		BuiltInRegistries.ITEM,
 		new ResourceLocation(ExampleMod.MOD_ID, "custom_sword"),
-		new CustomSwordItem(Tiers.NETHERITE, 20, -2.0f, new Item.Properties())
+		new CustomSwordItem(Tiers.NETHERITE, 95, -2.0f, new Item.Properties().durability(9999))
 	);
 
 	// 创建一个属于本 mod 自己的创造模式物品栏标签

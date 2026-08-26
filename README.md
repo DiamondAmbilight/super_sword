@@ -24,7 +24,7 @@
 .\gradlew build
 ```
 
-生成的 mod jar 位于 `build/libs/super_sword-1.1.0.jar`。
+生成的 mod jar 位于 `build/libs/super_sword-1.2.0.jar`。
 
 ## 游戏内使用
 
