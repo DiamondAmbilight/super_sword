@@ -2,5 +2,10 @@
   "item.super_sword.custom_sword": "Super Sword",
   "itemGroup.super_sword": "Super Sword",
   "item.super_sword.custom_sword.desc": "A legendary sword forged from platinum with immense attack power.",
-  "item.super_sword.custom_sword.desc2": "Those struck are slowed and bathed in holy light."
+  "item.super_sword.custom_sword.desc2": "Those struck are slowed and bathed in holy light.",
+  "item.super_sword.custom_sword.skill": "Hold right-click for 2s, then release a sword wave. Cooldown: 5s.",
+  "message.super_sword.charging": "Sword wave charge: %s%%",
+  "message.super_sword.charge_ready": "Fully charged! Release right-click to fire",
+  "message.super_sword.charge_cancelled": "Not fully charged; cancelled",
+  "message.super_sword.wave_released": "Sword wave released! Cooldown: 5s"
 }

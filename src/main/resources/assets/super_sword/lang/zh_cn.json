@@ -2,5 +2,10 @@
   "item.super_sword.custom_sword": "超强之剑",
   "itemGroup.super_sword": "超强之剑",
   "item.super_sword.custom_sword.desc": "一把攻击力极高的传说之剑，由白金打造。",
-  "item.super_sword.custom_sword.desc2": "被击中者会被减速，并沐浴在圣光之中。"
+  "item.super_sword.custom_sword.desc2": "被击中者会被减速，并沐浴在圣光之中。",
+  "item.super_sword.custom_sword.skill": "按住右键蓄力2秒，松开释放剑气；冷却5秒。",
+  "message.super_sword.charging": "剑气蓄力：%s%%",
+  "message.super_sword.charge_ready": "蓄力完成！松开右键释放剑气",
+  "message.super_sword.charge_cancelled": "蓄力不足，已取消",
+  "message.super_sword.wave_released": "剑气已释放！冷却5秒"
 }

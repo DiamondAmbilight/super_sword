@@ -23,6 +23,8 @@ public class ExampleMod implements ModInitializer {
 
 		// 注册我们自定义的物品
 		ModItems.register();
+		ModParticles.register();
+		SwordWave.register();
 
 		LOGGER.info("Hello Fabric world!");
 	}
