@@ -41,11 +41,22 @@ processResources {
 	}
 }
 
+// Minecraft 1.20.1 runs on Java 17 while Gradle itself uses Java 21.
+tasks.withType(JavaExec).configureEach {
+	javaLauncher = javaToolchains.launcherFor {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
 
 java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+
 	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
 	// if it is present.
 	// If you remove this line, sources will not be generated.
